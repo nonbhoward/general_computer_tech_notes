@@ -1,0 +1,7 @@
+## General tech notes for working with potentially troublesome computer hardware
+
+### BIOS
+#### Hidden Shortcuts (Why is there even such a thing as a hidden shortcut..?)
+  Ctrl + S : Reveal hidden option
+
+
