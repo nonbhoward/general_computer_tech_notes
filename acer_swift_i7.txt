@@ -8,6 +8,15 @@
     WIndows 10 Home
     Resolution : 2256 x 1504
 
+### Failed attempt details
+  All combinations of BIOS options either result in..
+    1. System cannot find any USB bootable devices
+    2. System loads forever, stuck on ACER screen
+
+### Stuff to try next
+  Arbitrarily try more hard drives formatted to GPT, all of the guides say what I am doing should work
+
+
 ### BIOS
 #### Hidden Shortcuts (Why is there even such a thing as a hidden shortcut..?)
   Ctrl + S : Reveal hidden option
