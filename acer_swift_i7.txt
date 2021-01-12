@@ -1,8 +1,24 @@
 ## General tech notes for working with potentially troublesome computer hardware
+### Specific computer model details
+  Acer Swift 3 SF313-52-78W6
+    Release Date : December 04, 2020
+    Intel Core i7-1065G7 1.3GHz
+    16GiB RAM
+    512GB SSD
+    WIndows 10 Home
+    Resolution : 2256 x 1504
 
 ### BIOS
 #### Hidden Shortcuts (Why is there even such a thing as a hidden shortcut..?)
   Ctrl + S : Reveal hidden option
+  F2 or Del on boot to enter the BIOS
 
 
-### Commit test
+### Scripts related to Windows 10 Advanced Power Settings
+#### Enable All Advanced Power Settings
+  https://gist.github.com/raspi/203aef3694e34fefebf772c78c37ec2c
+#### Enable Some Advanced Power Settings
+  https://gist.github.com/Nt-gm79sp/1f8ea2c2869b988e88b4fbc183731693
+
+### General leads & possible tips from various searches..
+
