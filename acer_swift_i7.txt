@@ -8,6 +8,16 @@
     512GB SSD
     WIndows 10 Home
     Resolution : 2256 x 1504
+    
+### Details of successful clonezilla run
+  1. Always have multiple thumb drives available.. I've been surprised by a bad thumb drive before so.. first and foremost, this
+  2. On this computer, the AMD image worked fine, as of writing this the versions available were
+    alternative-stable 20201102-groovy
+    stable 2.7.0-10
+  3. Use Rufus to create the Clonezilla image (AMD version), GPT, UEFI, in ISO mode
+  4. Boot to the BIOS, press Ctrl+S to unlock the option to change from Optane with RAID to AHCI (if AHCI is not selected, Clonezilla couldn't find a disk)
+  5. I also disabled secure boot, disabled fast boot, and I left VTX and VTD on
+  6. No further comments at this time
 
 ### Failed attempt details
   All combinations of BIOS options either result in..
