@@ -10,6 +10,11 @@
     WIndows 10 Home
     Resolution : 2256 x 1504
     
+### BIOS Notes
+#### Hidden Shortcuts (Why is there even such a thing as a hidden shortcut..?)
+  Ctrl + S : Reveal hidden option
+  F2 or Del on boot to enter the BIOS
+
 ### Details of successful clonezilla run
   1. Always have multiple thumb drives available.. I've been surprised by a bad thumb drive before so.. first and foremost, this
   2. On this computer, the AMD image worked fine, as of writing this the versions available were
@@ -31,11 +36,6 @@
 
 ### Stuff to try next
   Arbitrarily try more hard drives formatted to GPT, all of the guides say what I am doing should work
-
-### BIOS
-#### Hidden Shortcuts (Why is there even such a thing as a hidden shortcut..?)
-  Ctrl + S : Reveal hidden option
-  F2 or Del on boot to enter the BIOS
 
 ### Scripts related to Windows 10 Advanced Power Settings
 #### Enable All Advanced Power Settings

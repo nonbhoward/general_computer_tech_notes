@@ -1,0 +1,20 @@
+## General tech notes for working with potentially troublesome computer hardware
+### Specific computer model details
+  HP Omen 15-EN0013DX
+    Release Date : December 04, 2020
+    AMD Ryzen 7 4800H 8-Core 2.90GHz (up to 4.2GHz), 8MiB Cache
+    32GiB RAM
+    1TiB SSD
+    Nvidia GTX 1660 TI, 6GiB GDDR6 GPU
+    WIndows 10 Home
+    Resolution : 1920x1080
+
+### BIOS Notes
+  1. No issues with BIOS, standard options easily found and modified as-needed
+    
+### Details of successful clonezilla run
+  1. Had no issues running clonezilla on this computer
+
+### Details of successful Linux install
+  1. 
+
