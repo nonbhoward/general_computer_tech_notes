@@ -1,6 +1,7 @@
 ## General tech notes for working with potentially troublesome computer hardware
 ### Specific computer model details
   Acer Swift 3 SF313-52-78W6
+    Note : If I had known this computer was going to be so annoying I would've just bought a Lenovo, steer clear of this machine if you want to avoid undue headaches and bad manufacturer practices.
     Release Date : December 04, 2020
     Intel Core i7-1065G7 1.3GHz
     16GiB RAM
@@ -12,16 +13,17 @@
   All combinations of BIOS options either result in..
     1. System cannot find any USB bootable devices
     2. System loads forever, stuck on ACER screen
+    3. Finally got USB to boot and run Clonezilla, was at the option selecting where to backup the image, and clonezilla was unable to find a disk to clone.
+      "Error! No existing disk(s) or no unmounted disk(s) are found! To use Clonezilla to save or clone a disk, the source disk must exist or be unmounted! If you are sure the disk exists in this machine, maybe the kernel is too old? Press "Enter" to exit..."
+
 
 ### Stuff to try next
   Arbitrarily try more hard drives formatted to GPT, all of the guides say what I am doing should work
-
 
 ### BIOS
 #### Hidden Shortcuts (Why is there even such a thing as a hidden shortcut..?)
   Ctrl + S : Reveal hidden option
   F2 or Del on boot to enter the BIOS
-
 
 ### Scripts related to Windows 10 Advanced Power Settings
 #### Enable All Advanced Power Settings
@@ -31,3 +33,15 @@
 
 ### General leads & possible tips from various searches..
 
+### Clonezilla Event Log
+
+1. First it wouldn't detect any bootable devices, except "Linpus Lite" which is apparently some Acer Linux thing?
+  Note : BIOS options Optane for these attempts :
+    Optain with RAID
+    Secure Boot Off
+    Intel VTX On
+    Intel VTD On
+  Downloaded every version of the clonezilla boot USB out of desparation
+    i386, i386-pae, amd
+  AMD never shows up as a bootable device, always called Linpus Lite
+  i386 and i386-pae show up as bootable devices then freeze as soon as the first menu option is selected
