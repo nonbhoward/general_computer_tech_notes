@@ -15,6 +15,7 @@
     2. System loads forever, stuck on ACER screen
     3. Finally got USB to boot and run Clonezilla, was at the option selecting where to backup the image, and clonezilla was unable to find a disk to clone.
       "Error! No existing disk(s) or no unmounted disk(s) are found! To use Clonezilla to save or clone a disk, the source disk must exist or be unmounted! If you are sure the disk exists in this machine, maybe the kernel is too old? Press "Enter" to exit..."
+        Theory to fix this.. change boot mode from Optain RAID to AHCI and attempt to create disk.
 
 
 ### Stuff to try next
