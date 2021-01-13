@@ -1,7 +1,8 @@
 ## General tech notes for working with potentially troublesome computer hardware
 ### Specific computer model details
   Acer Swift 3 SF313-52-78W6
-    Note : If I had known this computer was going to be so annoying I would've just bought a Lenovo, steer clear of this machine if you want to avoid undue headaches and bad manufacturer practices.
+    Note : If I had known this computer was going to be so annoying I would've just bought a Lenovo, 
+      steer clear of this machine if you want to avoid undue headaches and bad manufacturer practices.
     Release Date : December 04, 2020
     Intel Core i7-1065G7 1.3GHz
     16GiB RAM
